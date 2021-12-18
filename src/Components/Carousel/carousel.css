@@ -1,0 +1,21 @@
+.carousel {
+  width: 100vw;
+  height: 30vh;
+  overflow: hidden;
+}
+
+.react-multi-carousel-list {
+  height: 30vh;
+}
+
+.react-multi-carousel-track {
+  height: 30vh;
+}
+
+.carousel-item {
+  height: 30vh;
+}
+
+.carousel-item-img {
+  width: 100vw;
+}

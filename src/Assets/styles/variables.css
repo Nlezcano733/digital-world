@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500;700&family=Zen+Dots&=Arimo:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500;700&family=Zen+Dots&Montserrat:wght@200&display=swap");
 
 :root {
   --display-sm: 640px;
@@ -38,7 +38,7 @@
   --success-normal: #22c55e;
   --success-dark: #16a34a;
 
-  --font-primary: "Arimo", sans-serif, helvetica;
+  --font-primary: "Montserrat", sans-serif, helvetica;
   --font-secondary: "Source code pro", sans-serif, helvetica;
   --font-special: "Zen dots", sans-serif, helvetica;
 
