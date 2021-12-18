@@ -1,0 +1,62 @@
+.font-small {
+  font-size: var(--font-small);
+}
+.font-text-sm {
+  font-size: var(--font-text-sm);
+}
+.font-text {
+  font-size: var(--font-text);
+}
+.font-subtitle {
+  font-size: var(--font-subtitle);
+}
+.font-title {
+  font-size: var(--font-title);
+}
+.font-title-lg {
+  font-size: var(--font-title-lg);
+}
+.font-display {
+  font-size: var(--font-display);
+}
+.font-jumbo {
+  font-size: var(--font-jumbo);
+}
+
+/* ###################################### */
+
+.family-primary {
+  font-family: var(--font-primary);
+}
+.family-secondary {
+  font-family: var(--font-secondary);
+}
+.family-special {
+  font-family: var(--font-special);
+}
+
+/* ###################################### */
+
+.text-light {
+  font-weight: 100;
+}
+
+.text-normal {
+  font-weight: normal;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+/* ###################################### */
+
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}

@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500;700&family=Zen+Dots&=Arimo:wght@500&display=swap");
+
+:root {
+  --display-sm: 640px;
+  --display-md: 768px;
+  --display-lg: 1024px;
+  --display-xl: 1280px;
+  --display-2xl: 1568px;
+  --dispaly-3xl: 2160px;
+
+  --primary-100: #dbeafe;
+  --primary-200: #93c5fd;
+  --primary-300: #3b82f6;
+  --primary-400: #1d4ed8;
+  --primary-500: #1e3a8a;
+
+  --secondary-100: #ecfccb;
+  --secondary-200: #bef264;
+  --secondary-300: #84cc16;
+  --secondary-400: #4d7c0f;
+  --secondary-500: #365314;
+
+  --gray-100: #f3f4f6;
+  --gray-200: #d1d5db;
+  --gray-300: #6b7280;
+  --gray-400: #374151;
+  --gray-500: #111827;
+
+  --danger-light: #fca5a5;
+  --danger-normal: #ef4444;
+  --danger-dark: #dc2626;
+
+  --warn-light: #fcd34d;
+  --warn-normal: #f59e0b;
+  --warn-dark: #d97706;
+
+  --success-light: #86efac;
+  --success-normal: #22c55e;
+  --success-dark: #16a34a;
+
+  --font-primary: "Arimo", sans-serif, helvetica;
+  --font-secondary: "Source code pro", sans-serif, helvetica;
+  --font-special: "Zen dots", sans-serif, helvetica;
+
+  --font-small: 12px;
+  --font-text-sm: 14px;
+  --font-text: 16px;
+  --font-subtitle: 18px;
+  --font-title: 20px;
+  --font-title-lg: 24px;
+  --font-display: 32px;
+  --font-jumbo: 48px;
+
+  --transition: all 200ms linear;
+}
