@@ -23,17 +23,17 @@ const HomeCarousel = (props) => {
   return (
     <div className='carousel'>
       <Carousel
-        responsive={responsive}
-        autoPlay={true}
-        transitionDuration={1200}
-        autoPlaySpeed={6000}
-        swipeable={true}
-        arrows={true}
-        infinite={true}
+        responsive={ responsive }
+        autoPlay={ true }
+        transitionDuration={ 1200 }
+        autoPlaySpeed={ 6000 }
+        swipeable={ true }
+        arrows={ true }
+        infinite={ true }
       >
         {
           images?.map((img, i) => (
-            <img src={img} alt={`banner${i}`} className='carousel-item-img' />
+            <img src={ img } alt={ `banner${i}` } key={ i } className='carousel-item-img' />
           ))
         }
       </Carousel>

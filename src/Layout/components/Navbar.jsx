@@ -18,34 +18,40 @@ const Navbar = () => {
               ? (
                 <nav className="nav-menu flex-between">
                   <Link
-                    to={`/products/hardware`}
+                    to={ `/products/hardware` }
                     className="nav-enlace"
                   >
                     Hardware
                   </Link>
                   <Link
-                    to={`/products/games`}
-                    className="nav-enlace"
+                    to={ `/products/components` }
+                    className="nav-enlace font-text"
                   >
-                    Games
+                    Components
                   </Link>
                   <Link
-                    to={`/products/software`}
-                    className="nav-enlace"
+                    to={ `/products/software` }
+                    className="nav-enlace font-text"
                   >
                     Software
                   </Link>
                   <Link
-                    to={`/cart`}
-                    className="nav-enlace"
+                    to={ `/products/games` }
+                    className="nav-enlace font-text"
+                  >
+                    Games
+                  </Link>
+                  <Link
+                    to={ `/cart` }
+                    className="nav-enlace font-text"
                   >
                     <i className="fas fa-shopping-cart font-title-lg"></i>
                   </Link>
                 </nav>
               )
               : (
-                <div className="nav-enlace" onClick={() => setActiveNav(!activeNav)}>
-                  <i className={`fas fa-${activeNav ? "times" : "bars"} font-title-lg`}></i>
+                <div className="nav-enlace" onClick={ () => setActiveNav(!activeNav) }>
+                  <i className={ `fas fa-${activeNav ? "times" : "bars"} font-title-lg` }></i>
                 </div>
               )
           }
@@ -56,30 +62,37 @@ const Navbar = () => {
           ? (
             <div className="nav-mobile">
               <Link
-                to={`/products/hardware`}
+                to={ `/products/hardware` }
                 className="nav-enlace"
-                onClick={() => setActiveNav(false)}
+                onClick={ () => setActiveNav(false) }
               >
                 Hardware
               </Link>
               <Link
-                to={`/products/games`}
+                to={ `/products/components` }
                 className="nav-enlace"
-                onClick={() => setActiveNav(false)}
+                onClick={ () => setActiveNav(false) }
               >
-                Games
+                Components
               </Link>
               <Link
-                to={`/products/software`}
+                to={ `/products/software` }
                 className="nav-enlace"
-                onClick={() => setActiveNav(false)}
+                onClick={ () => setActiveNav(false) }
               >
                 Software
               </Link>
               <Link
-                to={`/cart`}
+                to={ `/products/games` }
                 className="nav-enlace"
-                onClick={() => setActiveNav(false)}
+                onClick={ () => setActiveNav(false) }
+              >
+                Games
+              </Link>
+              <Link
+                to={ `/cart` }
+                className="nav-enlace"
+                onClick={ () => setActiveNav(false) }
               >
                 Cart
               </Link>
