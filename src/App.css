@@ -13,6 +13,7 @@
 body {
   background-color: var(--gray-100);
   color: var(--gray-500);
+  font-family: var(--font-primary);
   margin: 0;
 }
 
@@ -30,6 +31,7 @@ a,
 button,
 input {
   font-family: var(--font-primary);
+  font-weight: 200;
 }
 
 a {
