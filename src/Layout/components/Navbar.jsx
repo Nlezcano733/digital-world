@@ -18,22 +18,10 @@ const Navbar = () => {
               ? (
                 <nav className="nav-menu flex-between">
                   <Link
-                    to={`/products/hardware`}
+                    to={`/products`}
                     className="nav-enlace"
                   >
-                    Hardware
-                  </Link>
-                  <Link
-                    to={`/products/games`}
-                    className="nav-enlace"
-                  >
-                    Games
-                  </Link>
-                  <Link
-                    to={`/products/software`}
-                    className="nav-enlace"
-                  >
-                    Software
+                    Products
                   </Link>
                   <Link
                     to={`/cart`}

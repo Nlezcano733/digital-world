@@ -15,6 +15,13 @@ body {
   color: var(--gray-500);
   font-family: var(--font-primary);
   margin: 0;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+section {
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 h1,
@@ -24,6 +31,7 @@ h4,
 h5,
 h6 {
   font-family: var(--font-secondary);
+  margin: 8px 0px;
 }
 
 p,
@@ -37,4 +45,28 @@ input {
 a {
   text-decoration: none;
   color: var(--gray-500);
+}
+
+.card {
+  border: 1px solid var(--gray-100);
+  padding: 12px 10px;
+}
+
+@media (min-width: 768px) {
+  section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .card {
+    border: 1px solid var(--gray-100);
+    padding: 16px 12px;
+  }
+}
+
+@media (min-width: 1024px) {
+  section {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
 }
