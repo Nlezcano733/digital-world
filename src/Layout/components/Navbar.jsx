@@ -24,8 +24,14 @@ const Navbar = () => {
                     Products
                   </Link>
                   <Link
+                    to={`/products/games`}
+                    className="nav-enlace font-text"
+                  >
+                    Games
+                  </Link>
+                  <Link
                     to={`/cart`}
-                    className="nav-enlace"
+                    className="nav-enlace font-text"
                   >
                     <i className="fas fa-shopping-cart font-title-lg"></i>
                   </Link>
@@ -51,11 +57,11 @@ const Navbar = () => {
                 Hardware
               </Link>
               <Link
-                to={`/products/games`}
+                to={`/products/components`}
                 className="nav-enlace"
                 onClick={() => setActiveNav(false)}
               >
-                Games
+                Components
               </Link>
               <Link
                 to={`/products/software`}
@@ -63,6 +69,13 @@ const Navbar = () => {
                 onClick={() => setActiveNav(false)}
               >
                 Software
+              </Link>
+              <Link
+                to={`/products/games`}
+                className="nav-enlace"
+                onClick={() => setActiveNav(false)}
+              >
+                Games
               </Link>
               <Link
                 to={`/cart`}
